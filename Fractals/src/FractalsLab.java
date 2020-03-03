@@ -45,6 +45,8 @@ public class FractalsLab extends JApplet implements ActionListener, ChangeListen
 		circular(g, 100,100, 0);
 		//rings(g, 400, 0, 300);
 		
+		tree(g, 500, 900, 500, 600);
+		
 		
 		
 		//rings(g, 400, 400, y);
@@ -79,6 +81,9 @@ public class FractalsLab extends JApplet implements ActionListener, ChangeListen
 	
 	public void tree(Graphics g, int x1, int y1, int x2, int y2){
 		g.drawLine(x1, y1, x2, y2);
+		
+		
+		
 	}
 	
 	public void circular(Graphics g, int x, int y, int d){
